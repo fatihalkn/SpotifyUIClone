@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		3D3A1B802B42AFAC00C8975D /* recentlyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A1B7F2B42AFAC00C8975D /* recentlyModel.swift */; };
+		3D3A1B842B42E5FB00C8975D /* RevealedCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A1B822B42E5FB00C8975D /* RevealedCollectionViewCell.swift */; };
+		3D3A1B852B42E5FB00C8975D /* RevealedCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A1B832B42E5FB00C8975D /* RevealedCollectionViewCell.xib */; };
+		3D3A1B872B42E8D600C8975D /* revealedModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A1B862B42E8D600C8975D /* revealedModel.swift */; };
+		3D3A1B892B4317E700C8975D /* EditorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A1B882B4317E700C8975D /* EditorModel.swift */; };
+		3D3A1B912B43187800C8975D /* EditorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A1B8F2B43187800C8975D /* EditorCollectionViewCell.swift */; };
+		3D3A1B922B43187800C8975D /* EditorCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D3A1B902B43187800C8975D /* EditorCollectionViewCell.xib */; };
 		3DB00CF82B41E57400510B67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB00CF72B41E57400510B67 /* AppDelegate.swift */; };
 		3DB00CFA2B41E57400510B67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB00CF92B41E57400510B67 /* SceneDelegate.swift */; };
 		3DB00CFC2B41E57400510B67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB00CFB2B41E57400510B67 /* ViewController.swift */; };
@@ -20,6 +26,12 @@
 
 /* Begin PBXFileReference section */
 		3D3A1B7F2B42AFAC00C8975D /* recentlyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recentlyModel.swift; sourceTree = "<group>"; };
+		3D3A1B822B42E5FB00C8975D /* RevealedCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevealedCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D3A1B832B42E5FB00C8975D /* RevealedCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RevealedCollectionViewCell.xib; sourceTree = "<group>"; };
+		3D3A1B862B42E8D600C8975D /* revealedModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = revealedModel.swift; sourceTree = "<group>"; };
+		3D3A1B882B4317E700C8975D /* EditorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorModel.swift; sourceTree = "<group>"; };
+		3D3A1B8F2B43187800C8975D /* EditorCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorCollectionViewCell.swift; sourceTree = "<group>"; };
+		3D3A1B902B43187800C8975D /* EditorCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EditorCollectionViewCell.xib; sourceTree = "<group>"; };
 		3DB00CF42B41E57400510B67 /* SpotifyUIClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyUIClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB00CF72B41E57400510B67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DB00CF92B41E57400510B67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,8 +59,35 @@
 			isa = PBXGroup;
 			children = (
 				3D3A1B7F2B42AFAC00C8975D /* recentlyModel.swift */,
+				3D3A1B862B42E8D600C8975D /* revealedModel.swift */,
+				3D3A1B882B4317E700C8975D /* EditorModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		3D3A1B812B42E5D900C8975D /*  RevealedPlayed */ = {
+			isa = PBXGroup;
+			children = (
+				3D3A1B822B42E5FB00C8975D /* RevealedCollectionViewCell.swift */,
+				3D3A1B832B42E5FB00C8975D /* RevealedCollectionViewCell.xib */,
+			);
+			path = " RevealedPlayed";
+			sourceTree = "<group>";
+		};
+		3D3A1B8E2B43186700C8975D /* EditorModel */ = {
+			isa = PBXGroup;
+			children = (
+				3D3A1B8F2B43187800C8975D /* EditorCollectionViewCell.swift */,
+				3D3A1B902B43187800C8975D /* EditorCollectionViewCell.xib */,
+			);
+			path = EditorModel;
+			sourceTree = "<group>";
+		};
+		3D3A1B932B431E7400C8975D /* YourReview */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = YourReview;
 			sourceTree = "<group>";
 		};
 		3DB00CEB2B41E57300510B67 = {
@@ -86,6 +125,9 @@
 		3DB00D0B2B41EA3F00510B67 /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
+				3D3A1B932B431E7400C8975D /* YourReview */,
+				3D3A1B8E2B43186700C8975D /* EditorModel */,
+				3D3A1B812B42E5D900C8975D /*  RevealedPlayed */,
 				3DB00D102B41EAB200510B67 /* RecentlyPlayed */,
 			);
 			path = CustomCells;
@@ -159,9 +201,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DB00D042B41E57600510B67 /* LaunchScreen.storyboard in Resources */,
+				3D3A1B922B43187800C8975D /* EditorCollectionViewCell.xib in Resources */,
 				3DB00D0F2B41EA8C00510B67 /* RecentlyPlayedCollectionViewCell.xib in Resources */,
 				3DB00D012B41E57600510B67 /* Assets.xcassets in Resources */,
 				3DB00CFF2B41E57400510B67 /* Main.storyboard in Resources */,
+				3D3A1B852B42E5FB00C8975D /* RevealedCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,8 +216,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D3A1B842B42E5FB00C8975D /* RevealedCollectionViewCell.swift in Sources */,
 				3DB00CFC2B41E57400510B67 /* ViewController.swift in Sources */,
 				3DB00D0E2B41EA8C00510B67 /* RecentlyPlayedCollectionViewCell.swift in Sources */,
+				3D3A1B872B42E8D600C8975D /* revealedModel.swift in Sources */,
+				3D3A1B892B4317E700C8975D /* EditorModel.swift in Sources */,
+				3D3A1B912B43187800C8975D /* EditorCollectionViewCell.swift in Sources */,
 				3D3A1B802B42AFAC00C8975D /* recentlyModel.swift in Sources */,
 				3DB00CF82B41E57400510B67 /* AppDelegate.swift in Sources */,
 				3DB00CFA2B41E57400510B67 /* SceneDelegate.swift in Sources */,
