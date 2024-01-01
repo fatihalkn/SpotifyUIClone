@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D3A1B802B42AFAC00C8975D /* recentlyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3A1B7F2B42AFAC00C8975D /* recentlyModel.swift */; };
 		3DB00CF82B41E57400510B67 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB00CF72B41E57400510B67 /* AppDelegate.swift */; };
 		3DB00CFA2B41E57400510B67 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB00CF92B41E57400510B67 /* SceneDelegate.swift */; };
 		3DB00CFC2B41E57400510B67 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB00CFB2B41E57400510B67 /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3D3A1B7F2B42AFAC00C8975D /* recentlyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recentlyModel.swift; sourceTree = "<group>"; };
 		3DB00CF42B41E57400510B67 /* SpotifyUIClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyUIClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DB00CF72B41E57400510B67 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DB00CF92B41E57400510B67 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D3A1B7E2B42AF8E00C8975D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D3A1B7F2B42AFAC00C8975D /* recentlyModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		3DB00CEB2B41E57300510B67 = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +70,7 @@
 		3DB00CF62B41E57400510B67 /* SpotifyUIClone */ = {
 			isa = PBXGroup;
 			children = (
+				3D3A1B7E2B42AF8E00C8975D /* Models */,
 				3DB00D0B2B41EA3F00510B67 /* CustomCells */,
 				3DB00CF72B41E57400510B67 /* AppDelegate.swift */,
 				3DB00CF92B41E57400510B67 /* SceneDelegate.swift */,
@@ -163,6 +174,7 @@
 			files = (
 				3DB00CFC2B41E57400510B67 /* ViewController.swift in Sources */,
 				3DB00D0E2B41EA8C00510B67 /* RecentlyPlayedCollectionViewCell.swift in Sources */,
+				3D3A1B802B42AFAC00C8975D /* recentlyModel.swift in Sources */,
 				3DB00CF82B41E57400510B67 /* AppDelegate.swift in Sources */,
 				3DB00CFA2B41E57400510B67 /* SceneDelegate.swift in Sources */,
 			);

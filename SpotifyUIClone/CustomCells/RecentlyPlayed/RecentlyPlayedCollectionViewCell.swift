@@ -11,9 +11,17 @@ class RecentlyPlayedCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var textLbl: UILabel!
     
+    static let identifier = "RecentlyPlayedCollectionViewCell"
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        
     }
+    func setup(recently: recentlyModel) {
+        textLbl.text = recently.id
+        imageView.image = .init(named: recently.img)
+        
+    }
+    
 
 }
