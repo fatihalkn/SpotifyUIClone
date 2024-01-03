@@ -26,6 +26,12 @@
 		3DFEC44B2B4465D300349DB7 /* searchModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFEC44A2B4465D300349DB7 /* searchModel.swift */; };
 		3DFEC44E2B44662000349DB7 /* GenresCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFEC44C2B44662000349DB7 /* GenresCollectionViewCell.swift */; };
 		3DFEC44F2B44662000349DB7 /* GenresCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFEC44D2B44662000349DB7 /* GenresCollectionViewCell.xib */; };
+		3DFEC4552B45464F00349DB7 /* PodcastCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFEC4532B45464F00349DB7 /* PodcastCollectionViewCell.swift */; };
+		3DFEC4562B45464F00349DB7 /* PodcastCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFEC4542B45464F00349DB7 /* PodcastCollectionViewCell.xib */; };
+		3DFEC4582B4546EF00349DB7 /* podcastModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFEC4572B4546EF00349DB7 /* podcastModel.swift */; };
+		3DFEC45C2B454AC300349DB7 /* PopularCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFEC45A2B454AC300349DB7 /* PopularCollectionViewCell.swift */; };
+		3DFEC45D2B454AC300349DB7 /* PopularCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DFEC45B2B454AC300349DB7 /* PopularCollectionViewCell.xib */; };
+		3DFEC45F2B454B4200349DB7 /* popularModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DFEC45E2B454B4200349DB7 /* popularModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +56,12 @@
 		3DFEC44A2B4465D300349DB7 /* searchModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = searchModel.swift; sourceTree = "<group>"; };
 		3DFEC44C2B44662000349DB7 /* GenresCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenresCollectionViewCell.swift; sourceTree = "<group>"; };
 		3DFEC44D2B44662000349DB7 /* GenresCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GenresCollectionViewCell.xib; sourceTree = "<group>"; };
+		3DFEC4532B45464F00349DB7 /* PodcastCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PodcastCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DFEC4542B45464F00349DB7 /* PodcastCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PodcastCollectionViewCell.xib; sourceTree = "<group>"; };
+		3DFEC4572B4546EF00349DB7 /* podcastModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = podcastModel.swift; sourceTree = "<group>"; };
+		3DFEC45A2B454AC300349DB7 /* PopularCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DFEC45B2B454AC300349DB7 /* PopularCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PopularCollectionViewCell.xib; sourceTree = "<group>"; };
+		3DFEC45E2B454B4200349DB7 /* popularModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = popularModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +82,8 @@
 				3D3A1B862B42E8D600C8975D /* revealedModel.swift */,
 				3D3A1B882B4317E700C8975D /* EditorModel.swift */,
 				3DFEC44A2B4465D300349DB7 /* searchModel.swift */,
+				3DFEC4572B4546EF00349DB7 /* podcastModel.swift */,
+				3DFEC45E2B454B4200349DB7 /* popularModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -113,7 +127,7 @@
 			children = (
 				3DFEC4512B447BF600349DB7 /* Controller */,
 				3D3A1B7E2B42AF8E00C8975D /* Models */,
-				3DB00D0B2B41EA3F00510B67 /* CustomCells */,
+				3DB00D0B2B41EA3F00510B67 /* CustomCell */,
 				3DB00CF72B41E57400510B67 /* AppDelegate.swift */,
 				3DB00CF92B41E57400510B67 /* SceneDelegate.swift */,
 				3DB00CFD2B41E57400510B67 /* Main.storyboard */,
@@ -124,15 +138,17 @@
 			path = SpotifyUIClone;
 			sourceTree = "<group>";
 		};
-		3DB00D0B2B41EA3F00510B67 /* CustomCells */ = {
+		3DB00D0B2B41EA3F00510B67 /* CustomCell */ = {
 			isa = PBXGroup;
 			children = (
+				3DFEC4592B454AA400349DB7 /* PopularCell */,
+				3DFEC4522B45462C00349DB7 /* PodcastCell */,
 				3DFEC4502B44664700349DB7 /* GenresCell */,
 				3D3A1B8E2B43186700C8975D /* EditorCell */,
 				3D3A1B812B42E5D900C8975D /*  RevealedPlayedCell */,
 				3DB00D102B41EAB200510B67 /* RecentlyPlayedCell */,
 			);
-			path = CustomCells;
+			path = CustomCell;
 			sourceTree = "<group>";
 		};
 		3DB00D102B41EAB200510B67 /* RecentlyPlayedCell */ = {
@@ -160,6 +176,24 @@
 				3DFEC4482B44465200349DB7 /* SearchViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		3DFEC4522B45462C00349DB7 /* PodcastCell */ = {
+			isa = PBXGroup;
+			children = (
+				3DFEC4532B45464F00349DB7 /* PodcastCollectionViewCell.swift */,
+				3DFEC4542B45464F00349DB7 /* PodcastCollectionViewCell.xib */,
+			);
+			path = PodcastCell;
+			sourceTree = "<group>";
+		};
+		3DFEC4592B454AA400349DB7 /* PopularCell */ = {
+			isa = PBXGroup;
+			children = (
+				3DFEC45A2B454AC300349DB7 /* PopularCollectionViewCell.swift */,
+				3DFEC45B2B454AC300349DB7 /* PopularCollectionViewCell.xib */,
+			);
+			path = PopularCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -223,9 +257,11 @@
 				3DFEC44F2B44662000349DB7 /* GenresCollectionViewCell.xib in Resources */,
 				3DB00D042B41E57600510B67 /* LaunchScreen.storyboard in Resources */,
 				3D3A1B922B43187800C8975D /* EditorCollectionViewCell.xib in Resources */,
+				3DFEC4562B45464F00349DB7 /* PodcastCollectionViewCell.xib in Resources */,
 				3DB00D0F2B41EA8C00510B67 /* RecentlyPlayedCollectionViewCell.xib in Resources */,
 				3DB00D012B41E57600510B67 /* Assets.xcassets in Resources */,
 				3DB00CFF2B41E57400510B67 /* Main.storyboard in Resources */,
+				3DFEC45D2B454AC300349DB7 /* PopularCollectionViewCell.xib in Resources */,
 				3D3A1B852B42E5FB00C8975D /* RevealedCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -238,15 +274,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				3DFEC4492B44465200349DB7 /* SearchViewController.swift in Sources */,
+				3DFEC45F2B454B4200349DB7 /* popularModel.swift in Sources */,
 				3D3A1B842B42E5FB00C8975D /* RevealedCollectionViewCell.swift in Sources */,
 				3DFEC44E2B44662000349DB7 /* GenresCollectionViewCell.swift in Sources */,
 				3DB00CFC2B41E57400510B67 /* ViewController.swift in Sources */,
+				3DFEC4582B4546EF00349DB7 /* podcastModel.swift in Sources */,
 				3DB00D0E2B41EA8C00510B67 /* RecentlyPlayedCollectionViewCell.swift in Sources */,
 				3D3A1B872B42E8D600C8975D /* revealedModel.swift in Sources */,
 				3DFEC44B2B4465D300349DB7 /* searchModel.swift in Sources */,
 				3D3A1B892B4317E700C8975D /* EditorModel.swift in Sources */,
 				3D3A1B912B43187800C8975D /* EditorCollectionViewCell.swift in Sources */,
 				3D3A1B802B42AFAC00C8975D /* recentlyModel.swift in Sources */,
+				3DFEC4552B45464F00349DB7 /* PodcastCollectionViewCell.swift in Sources */,
+				3DFEC45C2B454AC300349DB7 /* PopularCollectionViewCell.swift in Sources */,
 				3DB00CF82B41E57400510B67 /* AppDelegate.swift in Sources */,
 				3DB00CFA2B41E57400510B67 /* SceneDelegate.swift in Sources */,
 			);

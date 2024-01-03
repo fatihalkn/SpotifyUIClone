@@ -18,11 +18,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var textLbl: UILabel!
     @IBOutlet weak var titleLbl: UILabel!
     
-    var recently: [recentlyModel] = [.init(id: "Eminem", img: "eminem"), .init(id: "Snoop Dog", img: "snoopdog"), .init(id: "Weekned", img: "weekned"), .init(id: "Whiz Khalifa", img: "whizkhalifa")]
+    var recently: [recentlyModel] = [.init(id: "", img: "recently-1"), .init(id: "", img: "recently-2"), .init(id: "", img: "recently-3"), .init(id: "", img: "recently-4")]
     
-    var revealed: [revealedModel] = [.init(id: "Eminem", img: "eminem"), .init(id: "Snoop Dog", img: "snoopdog"), .init(id: "Weekned", img: "weekned"), .init(id: "Whiz Khalifa", img: "whizkhalifa")]
+    var revealed: [revealedModel] = [.init(id: "Your Top Songs 2023", img: "reveal-1"), .init(id: "Your Artists", img: "reveal-2")]
     
-    var editor: [EditorModel] = [.init(id: "Eminem", img: "eminem"), .init(id: "Snoop Dog", img: "snoopdog"), .init(id: "Weekned", img: "weekned"), .init(id: "Whiz Khalifa", img: "whizkhalifa")]
+    var editor: [EditorModel] = [.init(id: "Ed Sheeran, Big Sean, Juice WRLD, Post Malone", img: "editor-1"), .init(id: "Mitski, Tame Impala, Glass Animals, Charli XCX", img: "editor-2"), .init(id: "Mitski, Tame Impala, Glass Animals, Charli XCX", img: "editor-3")]
     
    
     
